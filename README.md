@@ -68,6 +68,11 @@ Through this project, I have:
 
 
 **Output**
+<img width="1000" height="685" alt="Image" src="https://github.com/user-attachments/assets/2ed513ab-ea7e-40b7-8235-babbce130bcb" />
+<img width="1000" height="685" alt="Image" src="https://github.com/user-attachments/assets/7fef3a57-0665-4a0e-b96c-9e07bc0b36d4" />
+<img width="1000" height="685" alt="Image" src="https://github.com/user-attachments/assets/59c6c573-6ceb-4da3-96ee-b5d326faf2fa" />
+<img width="1000" height="685" alt="Image" src="https://github.com/user-attachments/assets/7b7998bb-569b-4c48-821e-5145f833e438" />
+
 
 **This project was developed as part of my FRONT-END DEVELOPMENT internship at CODTECH IT SOLUTIONS under the mentorship of NEELA SANTHOSH.**  
 It reflects my skills in designing and developing a professional and responsive personal portfolio website.
