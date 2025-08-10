@@ -1,0 +1,207 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background: #ffffff;
+    color: #1F2937;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+/* header */
+.header{
+    margin-top: 10px;
+    justify-content: center;
+    display: flex;
+    background : #C4E1E6;
+    height: 60px;
+    align-items: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+.header ul{
+    list-style:none;
+    gap: 40px;
+    display: flex;
+}
+.header ul li a{
+    color: #000000;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+.header ul li a:hover {
+    color: #cecb29ff;
+    transform: scale(1.08);
+}
+/* Content */
+.theme{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 20px;
+    padding: 60px;
+    background: #333446;
+    margin-left: 1%;
+    border-radius: 12px;
+}
+.para{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    margin-left: 29px;
+    margin-top: 30px;
+}
+.theme img{
+    width: 350px;
+    height: 400px;
+    margin-left: 10%;
+    border-radius: 400px;
+    transition: transform 0.4s ease;
+}
+.theme img:hover {
+    transform: scale(1.08);
+}
+.para h1{
+    color:rgb(255, 255, 255);
+    font-size: 35px;
+    padding: 10px;
+    font-weight: bold;
+    font-style:italic ;
+}
+.para h4{
+    padding: 10px;
+    font-size: px;
+    color: rgb(255, 255, 255);
+}
+.para p{
+    font-size: 17px;
+    padding: 10px;
+    color: rgb(255, 250, 250);
+    font-weight: 500;
+}
+/* About */
+#About{
+    background: white;
+    text-align: center;
+    margin-left: 1%;
+}
+.theme2 h1{
+    font-size:32px;
+    padding: 10px;
+    text-align: center;
+    color: #000000;
+    background: #71C0BB;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.theme2 p{
+    text-align: justify;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 40px;
+    line-height: 1.5;
+    
+}
+/* Skills */
+#skills{
+    background: #FFF;
+    text-align: center;
+    margin-left: 1%;
+}
+#skills h1{
+    margin-bottom:30px;
+    font-size: 32px;
+    padding: 10px;
+    text-align: center;
+    color: #000000;
+    background: #71C0BB;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.allskills{
+    display: flex;
+    gap: 60px;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+/* Skill cards hover */
+.skillset {
+    background: #fff; /* ✅ White cards */
+    border-radius: 10px;
+    line-height: 2;
+    padding: 15px;
+    gap: 20px;
+    text-align: center;
+    box-shadow: 0 10px 11px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* ✅ Hover animation */
+}
+.skillset:hover {
+    background: #FDE68A;
+    transform: translateY(-8px);
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.15);
+}
+.skillset img{
+    width: 60px;
+    height: 60px;
+}
+/* projects */
+#projects {
+    text-align: center;
+    margin-left: 1%;
+}
+#projects h1{
+    margin-bottom:30px;
+    font-size: 32px;
+    padding: 10px;
+    text-align: center;
+    color: #000000;
+    background: #71C0BB;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.allproject{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    line-height: 1.5;
+}
+.project{
+    background: linear-gradient(135deg, #FDE68A, #93C5FD);
+    color: #1F2937;
+    border-radius: 12px;
+    padding: 20px;
+    width: 320px;
+    height: 70vh;
+    text-align: left;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.project:hover {
+    transform: scale(1.05);
+}
+.allproject .project h2{
+    text-align: center;
+    padding: 15px;
+}
+/* Contact */
+#footer{
+    display: flex;
+    flex-direction: column;
+    background: #71C0BB;
+    color:#000000;
+    text-align: center;
+    padding: 20px;
+    font-size: 16px;
+}
+.foot p,h1{
+    padding: 5px;
+}
+#About #skills #projects #footer{
+    background-color: #71C0BB;
+}
