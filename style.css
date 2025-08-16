@@ -131,14 +131,14 @@ body{
 }
 /* Skill cards hover */
 .skillset {
-    background: #fff; /* ✅ White cards */
+    background: #fff; 
     border-radius: 10px;
     line-height: 2;
     padding: 15px;
     gap: 20px;
     text-align: center;
     box-shadow: 0 10px 11px rgba(0,0,0,0.1);
-    transition: transform 0.3s ease, box-shadow 0.3s ease; /* ✅ Hover animation */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 .skillset:hover {
     background: #FDE68A;
@@ -204,4 +204,5 @@ body{
 }
 #About #skills #projects #footer{
     background-color: #71C0BB;
+
 }
